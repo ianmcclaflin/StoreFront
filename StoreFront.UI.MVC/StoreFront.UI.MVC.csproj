@@ -183,19 +183,28 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\assets\favicon.ico" />
+    <Content Include="Content\css\styles.css" />
+    <Content Include="Content\js\scripts.js" />
+    <Content Include="_Archive\OriginalContent\bootstrap-theme.css" />
+    <Content Include="_Archive\OriginalContent\bootstrap-theme.min.css" />
+    <Content Include="_Archive\OriginalContent\bootstrap.css" />
+    <Content Include="_Archive\OriginalContent\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="_Archive\OriginalContent\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="configs\connections.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="_Archive\assets\favicon.ico" />
+    <Content Include="_Archive\css\styles.css" />
+    <Content Include="_Archive\Shop.html" />
+    <Content Include="_Archive\About.html" />
+    <Content Include="_Archive\index.html" />
+    <Content Include="_Archive\js\scripts.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -209,7 +218,9 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -254,6 +265,8 @@
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
     <Content Include="Views\Account\DisplayEmail.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
+    <Content Include="Views\Shared\OriginalLayout.cshtml" />
+    <Content Include="Views\Home\Shop.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -263,10 +276,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="_Archive\OriginalContent\bootstrap.min.css.map" />
+    <Content Include="_Archive\OriginalContent\bootstrap.css.map" />
+    <Content Include="_Archive\OriginalContent\bootstrap-theme.min.css.map" />
+    <Content Include="_Archive\OriginalContent\bootstrap-theme.css.map" />
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
