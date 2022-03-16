@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="83d1a635955f4976b3bc90a97e9828f8" Name="Diagram1">
+        <EntityTypeShape EntityType="DrumstoreModel.C__MigrationHistory" Width="1.5" PointX="9.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DrumstoreModel.AspNetRole" Width="1.5" PointX="5.125" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DrumstoreModel.AspNetUserClaim" Width="1.5" PointX="7.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="DrumstoreModel.AspNetUserLogin" Width="1.5" PointX="7.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DrumstoreModel.AspNetUser" Width="1.5" PointX="5" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DrumstoreModel.Category" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DrumstoreModel.Department" Width="1.5" PointX="5.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DrumstoreModel.Employee" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DrumstoreModel.Manufacturer" Width="1.5" PointX="0.5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DrumstoreModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DrumstoreModel.StockStatu" Width="1.5" PointX="0.5" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DrumstoreModel.sysdiagram" Width="1.5" PointX="9.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="DrumstoreModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="DrumstoreModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="DrumstoreModel.FK_Products_Catagorie" ManuallyRouted="false" />
+        <AssociationConnector Association="DrumstoreModel.FK_Employees_Departments1" ManuallyRouted="false" />
+        <AssociationConnector Association="DrumstoreModel.FK_Employees_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="DrumstoreModel.FK_Products_Manfacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="DrumstoreModel.FK_Products_StockStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="DrumstoreModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
