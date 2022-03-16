@@ -65,7 +65,6 @@
     <Compile Include="Category.cs">
       <DependentUpon>Drumstore.tt</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="C__MigrationHistory.cs">
       <DependentUpon>Drumstore.tt</DependentUpon>
     </Compile>
@@ -100,6 +99,7 @@
     <Compile Include="StockStatu.cs">
       <DependentUpon>Drumstore.tt</DependentUpon>
     </Compile>
+    <Compile Include="StoreFrontMetadata\DBNameMetadata.cs" />
     <Compile Include="sysdiagram.cs">
       <DependentUpon>Drumstore.tt</DependentUpon>
     </Compile>
